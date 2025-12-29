@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khushi Enterprises | Solar EPC & O&M</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Segoe UI, Arial;
+  background:#f4f7f6;
+}
+header{
+  background:linear-gradient(90deg,#0a7d3b,#14a44d);
+  color:#fff;
+  padding:25px;
+  text-align:center;
+}
+header img{
+  height:80px;
+  margin-bottom:10px;
+}
+nav{
+  background:#222;
+  text-align:center;
+  position:sticky;
+  top:0;
+}
+nav a{
+  color:#fff;
+  padding:14px 18px;
+  display:inline-block;
+  text-decoration:none;
+}
+nav a:hover{
+  background:#14a44d;
+}
+section{
+  padding:40px;
+  background:#fff;
+  margin:15px;
+  border-radius:8px;
+}
+h2{color:#0a7d3b}
+.services,.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.card{
+  background:#f0fff5;
+  padding:20px;
+  border-left:5px solid #14a44d;
+  border-radius:6px;
+}
+.gallery img{
+  width:100%;
+  border-radius:8px;
+  border:2px solid #ddd;
+}
+footer{
+  background:#222;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:#fff;
+  padding:15px 18px;
+  border-radius:50%;
+  font-size:20px;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Khushi Enterprises Logo">
+  <h1>KHUSHI ENTERPRISES</h1>
+  <p>Solar EPC | Installation & Commissioning | Operation & Maintenance</p>
+  <p><b>संपूर्ण सोलर समाधान प्रदाता</b></p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome / स्वागत है</h2>
+<p>
+<strong>Khushi Enterprises</strong> provides complete solar EPC,
+installation, commissioning and O&M services for commercial
+and industrial projects.
+</p>
+<p>
+हम EPC, सोलर इंस्टॉलेशन, कमीशनिंग और ऑपरेशन एंड मेंटेनेंस
+सेवाएं प्रदान करते हैं।
+</p>
+</section>
+
+<section id="about">
+<h2>About Us / हमारे बारे में</h2>
+<p>
+Khushi Enterprises is a trusted solar service provider focused on
+quality, safety and timely project execution.
+</p>
+<p>
+हम गुणवत्ता, सुरक्षा और समय पर कार्य पूर्ण करने में विश्वास रखते हैं।
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services / हमारी सेवाएं</h2>
+<div class="services">
+  <div class="card">☀ <b>Solar EPC Projects</b><br>Engineering, Procurement & Construction</div>
+  <div class="card">🔧 <b>Installation & Commissioning</b><br>On-grid / Off-grid systems</div>
+  <div class="card">🛠 <b>Operation & Maintenance</b><br>Plant monitoring & AMC</div>
+  <div class="card">⚡ <b>HT / LT Electrical Work</b><br>Testing & Earthing</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Project Gallery / प्रोजेक्ट गैलरी</h2>
+<div class="gallery">
+  <img src="p1.jpg">
+  <img src="p2.jpg">
+  <img src="p3.jpg">
+  <img src="p4.jpg">
+  <img src="p5.jpg">
+  <img src="p6.jpg">
+  <img src="p7.jpg">
+  <img src="p8.jpg">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us / संपर्क करें</h2>
+<p><b>Address:</b> Gram Lohari Bujurg, Dist. Dhar, M.P. – 454001</p>
+<p><b>Mobile:</b> 8319602626 | 9754672942</p>
+<p><b>Email:</b> khushienterprises942@gmail.com</p>
+</section>
+
+<footer>
+<p>© 2025 Khushi Enterprises | Solar EPC & O&M</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/918319602626" target="_blank">💬</a>
+
+</body>
+</html>
